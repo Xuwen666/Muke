@@ -84,3 +84,10 @@ table {
 ```
 #### css normalize
 保留样式
+#### 本地存储
+store.js
+[store.js github地址](https://github.com/marcuswestin/store.js/#user-content-basic-usage "store.js github地址")
+
+思路一:点击的时候将点击的内容存到一个对象当中,接着在创建一个对象用于存放所有的数据
+将新创建的数据存入,存放所有数据的对象当中,同时也要更新本地存储的仓库
+2.封装一个函数用来一开始就获取到所有的数据
